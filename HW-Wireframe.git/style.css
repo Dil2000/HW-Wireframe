@@ -15,17 +15,16 @@ body {
 .common{
     background-color:#ebebeb;
     padding:5px;
+    width:100%;
 }
 
 /** Id attributes **/
-div#Header{
-    width=98%;
-    padding :20px;
+header{
+    text-shadow: 2px 2px #777;
 }
 
 div#Nav{   
     text-align:left;
-    margin:auto;
 }
 
 div#Section{
@@ -38,18 +37,32 @@ div#Section{
 }
 
 div#Aside{
-    width:430px;
+    width:440px;
     height:400px;
     float:right;
     margin-left:2px;
 }
 
-/** Footer styles **/
-div#footer{
+/** Image sizes **/
+#img_small{
+    width:24%;
+    height:160px;
+}
+
+#img_large{
     width:98%;
+    height:98%;
+}
+
+#img_link{
+    width:50px;
+    height:50px;
+}
+
+/** Footer styles **/
+footer{
+    width:100%;
     text-align:right;
-    padding:10px; 
-    overflow:none;
     clear:both;
 }
 
@@ -88,7 +101,7 @@ h1,h2,h3{
 }
 
 h1{
-    text-shadow: 2px 2px #777;
+    padding:10px;
 }
 
 
